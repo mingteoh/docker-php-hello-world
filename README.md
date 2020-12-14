@@ -8,5 +8,5 @@ This is a very simple project to test CI/CD pipepine with docker.
 docker build -t docker-php-hello-world .
 docker run -p 80:80 docker-php-hello-world
 
-curl http://127.0.0.1/
+curl http://127.0.0.1/svc/index.php
 ```
